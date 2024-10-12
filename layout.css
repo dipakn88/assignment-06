@@ -1,0 +1,26 @@
+@media(min-width:736px) and (max-width: 1024px){
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1025px){
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    nav ul li{
+        width: 100%;
+    }
+    .him{ grid-area: him:}
+    .hill{ grid-area: hill;}
+    .terai{ grid-area: terai;}
+    .river{ grid-area: river;}
+    .climate{ grid-area: climate;}
+    
+}
